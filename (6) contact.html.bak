@@ -1,0 +1,166 @@
+	
+	<!-- 
+	Programmer/s:
+	Date Submitted: 
+	Program/s: 
+	Course / Section: IT130L / BM7
+	Purpose: IT130L Project
+	-->
+	
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title> About Us </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Font Style -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono|Muli">
+	
+	<!-- Favicon|image in web browser -->
+	<link rel="shortcut icon" type="image/png" href="favicon/logo.png">
+	
+	<!-- Common <style> Among All Pages -->
+	<link rel="stylesheet" href="styles.css">
+	
+	<!-- Local -->
+	<style>
+	h2 {
+		color: orange;
+	}
+	img {
+		border-radius: 25px;
+	}
+	</style>
+
+	<!-- meta tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+</head>
+<!--------------------------------------------------------------------------------------------------------------->
+<body>
+
+	<!-- bootstrap container -->
+	<div class="container">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	
+	<!-- Wesite Name + Logo + Navigation Bar -->
+	<div id="header" style="margin-bottom: 5px;">
+		<a href="aboutus.html" style="color: orange;font-size: 300%; font-family: 'Niagara Solid';">Fourth Studio</a>
+		<img src="logo.png" style="width: 50px; float:right; border-radius: 0px;">
+	</div>
+	
+	<div id="navbar" style="font-family: Space Mono, monospace;">
+		<a href="(1) home.html">Home</a>
+		<a href="(2) titan.html">Titans</a>
+		<a href="(3) character.html">Characters</a>
+		<a href="(4) iconic.html">Iconic Scenes</a>
+		<a href="(5) art.html">Fan Art</a>
+		<a href="(6) contact.html">About Us</a>
+	</div>
+	
+	<div style="border: 1px solid #ddd; background-color: #ddd;">
+		<p style="margin-left:10px; font-size:15px; margin:5px;"><b>Welcome to FourthStudio.net!</b></p>
+	</div>
+	
+	<div style="border: 1px solid #ddd;"><!--border for main ocntent-->
+		<div class="content">
+		  <h2>About the Site</h2>
+		  <hr style="margin-top:-20px;">
+		  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+		  
+		  <div style="padding: 35px;">
+			<h2> Office Address </h2>
+			<p> Suite 905 Entrata Urban Complex Condominium, (Crimson Hotel) Civic Drive Filinvest City, Alabang, Muntinlupa City 1781 <p>
+					
+			<br>
+			<h2> Contact Numbers </h2>
+			<p><b>United States : </b>(+516) 876.2345<p>
+			<p><b>Sales : </b>(+632) 792.5643<p>
+			<p><b>Admin/Acctng : </b>(+632) 546.6432 or (+632) 546.6764<p>
+			<p><b>Mobile : </b>(+63) 932.466.34.23<p>
+					
+			<br>
+			<h2> Email Us for Inquiries </h2>
+			<p><b>Admin : </b>admin@fourthco.com<p>
+			<p><b>Tech Support : </b>support@fourthco.com<p>
+		  </div>
+		  <br>
+		  
+		  <!-- Developers Information -->
+		  <h2>About the Developers</h2>
+		  <hr style="margin-top:-20px;">
+		  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+		  
+		  <table style="width: 100%;">
+			<tr>
+				<td style="width: 40%">
+					<img src="contact/miranda.jpg" style="width: 100%; display: block;"><!-- please crop images by square in local files -->
+				</td>
+				<td style="width: 60%; padding: 100px;">
+					<p><b>Name: </b></b>Member Full Name</p>
+					<p><b>Email: </b></b>Member Email</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 40%">
+					<img src="contact/umalay.jpg" style="width: 100%; display: block;"><!-- please crop images by square in local files -->
+				</td>
+				<td style="width: 60%; padding: 100px;">
+					<p><b>Name: </b></b>Vhonn Ashley M. Umalay</p>
+					<p><b>Email: </b></b>vamumalay@mymail.mapua.edu.ph</p>
+				</td>
+			</tr>
+		  </table>
+		<br><br>
+		<!-- Pagination -->
+		<div class="pagination">
+			<a href="(5) art.html">&laquo;</a>
+			<a href="(1) home.html">1</a>
+			<a href="(2) titan.html">2</a>
+			<a href="(3) character.html">3</a>
+			<a href="(4) iconic.html">4</a>
+			<a href="(5) art.html">5</a>
+			<a href="(6) contact.html" class="active">6</a>
+			<a href="#">&raquo;</a>
+		</div>
+		</div>
+		</div>
+</div>
+</div>
+
+	<!-- LOGO/COPYRIGHT + Developer Names -->
+	<div style="background-color:#ddd; text-align:center; padding:10px; margin-top:150px; font-size:12px;">
+		<p> Developer 1, Developer 3, Developer 3, Developer 4, Developer 5 </p>
+	</div>
+
+	<div style="background-color:orange; text-align:center; padding:10px; font-size:12px;">
+		<h1 style="color: black; font-size:35px; font-family: 'Niagara Solid';">Fourth Studio</h1>
+		<h6 style="color: black; font-size:10px; font-family: 'source sans pro';"> Copyright © 2020-2021 Fourth Studio, Copyright © 2007-2013 Business Ventures Unlimited Solutions Inc.</h6>
+		<br><br>
+	</div>
+
+<!-- Script for Sticky Navigation Bar -->
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<!-- bootstrap script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
